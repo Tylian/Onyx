@@ -1,6 +1,5 @@
 var http = require("http");
 var path = require("path");
-var engine = require("engine.io");
 var fs = require("fs");
 
 var app = http.createServer(function(req, res) {
